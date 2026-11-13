@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="430" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+  <title id="title">ESP32 WiFi RSSI Scanner functional block diagram</title>
+  <desc id="desc">Nearby access points exchange radio scan traffic with the ESP32. The ESP32 sends strongest RSSI records over its onboard USB interface to a computer. USB supplies power and programming. No external GPIO wiring is required.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="1100" height="430" rx="18" fill="#f8fafc"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="40" y="45" font-size="26" font-weight="bold">Project 02 | ESP32 WiFi RSSI Scanner</text>
+    <text x="40" y="76" font-size="16" fill="#475569">Functional setup — onboard Wi-Fi radio and USB interface</text>
+    <g fill="#fff" stroke="#94a3b8" stroke-width="2">
+      <rect x="40" y="130" width="230" height="165" rx="12"/>
+      <rect x="425" y="110" width="270" height="215" rx="12"/>
+      <rect x="850" y="130" width="210" height="165" rx="12"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="155" y="173" font-size="20" font-weight="bold">Nearby access points</text>
+      <text x="155" y="205" font-size="16">2.4 GHz Wi-Fi</text>
+      <text x="155" y="238" font-size="15">No network login needed</text>
+      <text x="560" y="151" font-size="21" font-weight="bold">ESP32 development board</text>
+      <text x="560" y="184" font-size="16">Scan available networks</text>
+      <text x="560" y="214" font-size="16">Select strongest RSSI</text>
+      <text x="560" y="244" font-size="16">Print record; release results</text>
+      <text x="560" y="280" font-size="16">Wait 2000 ms; repeat</text>
+      <text x="955" y="174" font-size="20" font-weight="bold">Computer</text>
+      <text x="955" y="210" font-size="16">Arduino IDE</text>
+      <text x="955" y="240" font-size="16">Serial Monitor</text>
+    </g>
+    <path d="M285 205H410" stroke="#2563eb" stroke-width="3" stroke-dasharray="8 5" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="347" y="181" text-anchor="middle" font-size="14">Radio scan traffic</text>
+    <path d="M710 190H835" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="772" y="164" text-anchor="middle" font-size="14">USB serial output</text>
+    <text x="772" y="215" text-anchor="middle" font-size="14">115200 baud</text>
+    <path d="M835 265H710" stroke="#2563eb" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="772" y="291" text-anchor="middle" font-size="13">USB power / upload</text>
+    <text x="40" y="371" font-size="17" font-weight="bold">Serial record: NODE1,&lt;counter&gt;,&lt;RSSI_dBm_or_NA&gt;</text>
+    <text x="40" y="404" font-size="15" fill="#475569">No external GPIO wiring. Scan duration adds to the two-second delay. Diagram is not a pin-level schematic.</text>
+  </g>
+</svg>

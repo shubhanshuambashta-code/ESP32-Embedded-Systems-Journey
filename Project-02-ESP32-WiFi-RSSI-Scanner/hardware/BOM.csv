@@ -1,0 +1,5 @@
+Item,Quantity,Required,Notes
+ESP32 development board with Wi-Fi and USB interface,1,Yes,ESP32 Dev Module selected in supplied screenshot
+Compatible USB data cable,1,Yes,Power programming and serial communication
+Computer with Arduino IDE,1,Yes,ESP32 board package required
+Breadboard,1,No,Mechanical support as shown in supplied photograph
