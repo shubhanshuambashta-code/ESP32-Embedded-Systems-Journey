@@ -1,0 +1,7 @@
+Quantity,Component,Description / Notes
+1,ESP32 development board,USB-powered ESP32 board with GPIO23
+1,Breadboard,Any standard solderless breadboard
+1,LED,Blue LED as shown in demonstration
+1,Resistor,Approximately 260 ohms used (220-330 ohms also suitable)
+2+,Jumper wires,GPIO23-to-resistor and LED cathode-to-GND connections
+1,USB data cable,ESP32 to laptop / USB power
