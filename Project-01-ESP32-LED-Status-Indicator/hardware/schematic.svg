@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-label="ESP32 GPIO23 connected through a 260 ohm resistor and blue LED to GND">
+<rect width="1000" height="460" fill="#fff"/>
+<text x="40" y="55" font-family="Arial" font-size="27" font-weight="bold" fill="#17344d">Project 01: ESP32 LED Status Indicator</text>
+<text x="40" y="85" font-family="Arial" font-size="17" fill="#536b7c">Conceptual electrical schematic (not a breadboard hole map)</text>
+<rect x="55" y="140" width="210" height="235" rx="12" fill="#eef6fd" stroke="#213c58" stroke-width="3"/>
+<text x="160" y="190" text-anchor="middle" font-family="Arial" font-size="25" fill="#17344d">ESP32</text>
+<text x="250" y="240" text-anchor="end" font-family="Arial" font-size="18" fill="#17344d">GPIO23</text>
+<text x="250" y="337" text-anchor="end" font-family="Arial" font-size="18" fill="#17344d">GND</text>
+<path d="M265 235 H365" stroke="#263745" stroke-width="4" fill="none"/>
+<path d="M365 235 l15 -18 l23 36 l23 -36 l23 36 l23 -36 l15 18" stroke="#263745" stroke-width="4" fill="none"/>
+<path d="M487 235 H635" stroke="#263745" stroke-width="4" fill="none"/>
+<text x="430" y="195" text-anchor="middle" font-family="Arial" font-size="19" fill="#17344d">R1 ≈ 260 Ω</text>
+<path d="M635 207 V263 L689 235 Z" fill="#77c5ff" stroke="#17344d" stroke-width="4"/>
+<path d="M692 205 V265" stroke="#17344d" stroke-width="5"/>
+<path d="M692 235 H800 V335 H265" stroke="#263745" stroke-width="4" fill="none"/>
+<path d="M653 195 l25 -35 M667 203 l28 -34" stroke="#238bd5" stroke-width="4" fill="none"/>
+<text x="665" y="130" text-anchor="middle" font-family="Arial" font-size="19" fill="#17344d">Blue LED</text>
+<text x="634" y="285" font-family="Arial" font-size="17" fill="#17344d">Anode (+)</text>
+<text x="704" y="285" font-family="Arial" font-size="17" fill="#17344d">Cathode (−)</text>
+<text x="40" y="425" font-family="Arial" font-size="17" fill="#17344d">Power: USB to ESP32. GPIO23 → resistor → LED anode → LED cathode → ESP32 GND.</text>
+</svg>
