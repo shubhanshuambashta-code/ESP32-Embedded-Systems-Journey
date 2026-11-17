@@ -1,0 +1,11 @@
+Item,Qty,Detail,Purpose
+ESP32 development board,1,Classic ESP32 Dev Module,ADC measurement and LED output
+Breadboard,1,Solderless,Mount divider and LED
+Jumper wires,5+,Breadboard compatible,Make electrical connections
+Resistor,1,467 ohm (measured),Divider upper resistor
+Resistor,1,980 ohm (measured),Divider lower resistor
+Resistor,1,260 ohm (measured),LED series current limiter
+External LED,1,Visible LED,Status output
+USB data cable,1,ESP32 compatible,Power and serial/programming
+Computer,1,Arduino IDE and Python 3,Upload and run programs
+Multimeter,1,Recommended for validation,Measure actual node voltage
